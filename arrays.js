@@ -3,6 +3,6 @@ function addElementToBeginningOfArray(){
   return ["milkyway", ...chocolateBars]
 }
 function destrucivelyAddElementToBeginningOfArray(){
-  var chocolateBars = ["milkyway", ...chocolateBars]
+  chocolateBars = ["milkyway", ...chocolateBars]
   return chocolateBars
 }
